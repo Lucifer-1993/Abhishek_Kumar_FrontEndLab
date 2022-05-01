@@ -1,0 +1,44 @@
+.header-title {
+    background-color: red;
+    text-align: right;
+    height: 5em;
+  }
+  
+  .header-title h1 {
+    padding-top: 1rem;
+    padding-right: 2rem;
+    
+  }
+  /* Nav bar  Styling */
+  .nav {
+    background-color: grey;
+    height: 2em;
+  }
+  /* Nav bar  link Styling */
+  .nav-link {
+    display: inline-block;
+    padding-top: 0.5rem;
+  }
+  /* Nav bar Text  Styling */
+  .nav-link a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+  }
+  /* Nav bar Sub Link  Styling */
+  div .nav-sub-links {
+    display: none;
+    list-style: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin: 0px;
+    padding: 05px;
+  }
+  
+  .nav-link:hover .nav-sub-links {
+    display: block;
+   
+  }
